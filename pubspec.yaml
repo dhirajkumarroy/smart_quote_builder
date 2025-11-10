@@ -1,0 +1,42 @@
+name: smart_quote_app
+description: "A modern Flutter product quote builder with interactive UI and PDF export."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Third-party dependencies
+  google_fonts: ^6.2.1       # For custom Google Fonts (Poppins, Inter, etc.)
+  intl: ^0.19.0              # For currency & date formatting
+  cupertino_icons: ^1.0.8    # Default iOS-style icons
+  shared_preferences: ^2.3.3 # For local quote saving (optional)
+  pdf: ^3.11.0               # For generating PDF files
+  printing: ^5.13.0          # For printing & PDF preview
+  share_plus: ^10.0.2
+
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Example for adding assets later
+  # assets:
+  #   - assets/logo.png
+
+  # Example custom font (if needed)
+  # fonts:
+  #   - family: MyCustomFont
+  #     fonts:
+  #       - asset: fonts/MyCustomFont-Regular.ttf
